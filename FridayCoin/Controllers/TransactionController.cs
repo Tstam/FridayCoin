@@ -29,11 +29,11 @@ namespace FridayCoin.Controllers
 
         //}
 
-        // PUT: api/Transfer/5
+        // PUT: api/transaction/5
         [HttpPut("{toguid}")]
-        public void Put(Guid toguid, [FromBody] Transaction trans)
+        public bool Put(Guid toguid, [FromBody] Transaction trans)
         {
-            _transactionService.PerformTransaction(trans.FromWallet, trans.ToWallet, trans.TransferAmount);
+            return _transactionService.PerformTransaction(trans.FromWallet, trans.ToWallet, trans.TransferAmount);            
         }
 
         // DELETE: api/ApiWithActions/5

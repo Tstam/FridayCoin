@@ -56,18 +56,5 @@ namespace FridayCoin.Controllers
             }
             return Guid.Empty;
         }
-
-        // PUT: api/Wallet/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //      transfer money?
-        //}
-
-        // DELETE: api/ApiWithActions/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

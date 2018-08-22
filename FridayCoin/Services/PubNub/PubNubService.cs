@@ -18,8 +18,8 @@ namespace FridayCoin.Services.PubNub
 
         private PubNubService()
         {
-            config.PublishKey = "pub-c-6a3cfcb3-2c90-48e8-80b8-f5d309a9b31f";
-            config.SecretKey = "sub-c-9b223526-8b58-11e8-85ee-866938e9174c";
+            config.PublishKey = "pub-c-caf6d7d4-a49a-4348-be48-ceaf046c0d95";
+            config.SecretKey = "sub-c-7b792c92-a61b-11e8-87b0-ca0e85b4e44e";
             config.Uuid = "FirstCoin-MASTER?";
             _pusher = new Pubnub(config);
         }

@@ -23,11 +23,11 @@ namespace FridayCoin.Services.PubNub
             }
         }
 
-        private async Task<Dictionary<string, object>> GetTransactionAndPublish(Transaction trans, string channel,
-            string uuid)
-        {
-            // to do: recieve transaction information -> transfer coins -> if succeeded calculate new balances -> else abort
-        }
+        //private async Task<Dictionary<string, object>> GetTransactionAndPublish(Transaction trans, string channel,
+        //    string uuid)
+        //{
+        //    // to do: recieve transaction information -> transfer coins -> if succeeded calculate new balances -> else abort
+        //}
 
 
 
